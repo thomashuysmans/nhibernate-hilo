@@ -32,6 +32,11 @@ namespace NHibernateHilo.App
                 }
                 transaction.Commit();
             }
+
+
+            Console.WriteLine("Done");
+            Console.ReadLine();
+
         }
 
         private static ISessionFactory CreateSessionFactory()
